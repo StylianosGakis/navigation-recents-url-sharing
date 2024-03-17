@@ -1,8 +1,8 @@
 plugins {
   alias(libs.plugins.android.library)
+  alias(libs.plugins.gradleMavenPublish)
   alias(libs.plugins.kotlin.android)
   alias(libs.plugins.nmcp)
-  `maven-publish`
 }
 
 android {
