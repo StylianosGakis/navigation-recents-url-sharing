@@ -9,6 +9,7 @@ coreKtx = "1.12.0"
 espressoCore = "3.5.1"
 junitVersion = "1.1.5"
 kotlin = "1.9.22"
+nmcp = "0.0.4"
 
 [libraries]
 androidx-activity-compose = { module = "androidx.activity:activity-compose", version.ref = "androidx-activity-compose" }
@@ -25,4 +26,4 @@ androidx-navigation-runtime = { module = "androidx.navigation:navigation-runtime
 android-application = { id = "com.android.application", version.ref = "agp" }
 android-library = { id = "com.android.library", version.ref = "agp" }
 kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
-
+nmcp = { id = "com.gradleup.nmcp", version.ref = "nmcp" }

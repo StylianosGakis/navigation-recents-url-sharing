@@ -1,6 +1,8 @@
 plugins {
   alias(libs.plugins.android.library)
   alias(libs.plugins.kotlin.android)
+  alias(libs.plugins.nmcp)
+  `maven-publish`
 }
 
 android {
@@ -23,4 +25,14 @@ dependencies {
   implementation(libs.androidx.navigation.runtime)
   androidTestImplementation(libs.androidx.junit)
   androidTestImplementation(libs.androidx.espresso.core)
+}
+
+version = property("VERSION_NAME") as String
+
+nmcp {
+  publishAllPublications {
+    username = findProperty("MAVEN_CENTRAL_USERNAME") as String
+    password = findProperty("MAVEN_CENTRAL_PASSWORD") as String
+    publicationType = "USER_MANAGED"
+  }
 }
