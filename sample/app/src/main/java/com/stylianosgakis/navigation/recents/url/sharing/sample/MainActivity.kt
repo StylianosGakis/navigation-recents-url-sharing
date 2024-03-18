@@ -133,7 +133,7 @@ fun SampleApp(navHostController: NavHostController, modifier: Modifier = Modifie
 private object DeepLink {
   const val ScreenFirst = "https://sample.app.link/first"
   const val ScreenSecond = "https://sample.app.link/second/{param1}/{param2}"
-  const val ScreenThird = "https://sample.app.link/first/{param1}?param2={param2}"
+  const val ScreenThird = "https://sample.app.link/third/{param1}?param2={param2}"
 }
 
 private val allDeepLinkUriPatterns = listOf(
