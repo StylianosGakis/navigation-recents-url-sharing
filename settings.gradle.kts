@@ -17,3 +17,4 @@ dependencyResolutionManagement {
 rootProject.name = "navigation-recents-url-sharing"
 include(":library:navigation-recents-url-sharing")
 include(":sample:app")
+include(":test:library-compose-test")

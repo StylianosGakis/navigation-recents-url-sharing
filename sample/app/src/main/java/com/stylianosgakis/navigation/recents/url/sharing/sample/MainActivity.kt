@@ -128,7 +128,6 @@ fun SampleApp(navHostController: NavHostController, modifier: Modifier = Modifie
   }
 }
 
-
 @Suppress("ConstPropertyName")
 private object DeepLink {
   const val ScreenFirst = "https://sample.app.link/first"
