@@ -42,4 +42,6 @@ dependencies {
 }
 ```
 
-###
+### Real world example
+
+This library is currently used in the [Hedvig](https://github.com/HedvigInsurance/android/blob/ea27562b34e5231a579bb56d3e0461339646c0b6/app/app/src/main/kotlin/com/hedvig/app/feature/loggedin/ui/LoggedInActivity.kt#L268-L274) app.
