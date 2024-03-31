@@ -24,7 +24,8 @@ override fun onProvideAssistContent(outContent: AssistContent) {
   navController?.provideAssistContent(outContent, listOfAllDeepLinkUriPatterns)
 }
 ```
-You can take a look at the [sample app](/sample/app/src/main/java/com/stylianosgakis/navigation/recents/url/sharing/sample/MainActivity.kt) for a full example
+You can take a look at the [sample app](sample/app/src/main/java/com/stylianosgakis/navigation/recents/url/sharing/sample/MainActivity.kt) 
+for a full example.
 
 ## Releases
 
@@ -45,3 +46,9 @@ dependencies {
 ### Real world example
 
 This library is currently used in the [Hedvig](https://github.com/HedvigInsurance/android/blob/ea27562b34e5231a579bb56d3e0461339646c0b6/app/app/src/main/kotlin/com/hedvig/app/feature/loggedin/ui/LoggedInActivity.kt#L268-L274) app.
+![The Hedvig app showing a deep link to ](resources/Hedvig_app_recents_integration.png)
+
+### Future work
+
+When `androidx.navigation` properly provides a KMP version, this library will try to provide integration with that 
+too if the deep link integration is ported to multiplatform too.
