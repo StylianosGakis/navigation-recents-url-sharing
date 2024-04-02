@@ -11,6 +11,8 @@ feature.
 It relies on you using [androidx.navigation](https://developer.android.com/jetpack/androidx/releases/navigation) and 
 using that library's integration with deep links to handle all of your deep links.
 
+[This article](https://dev.to/gakisstylianos/enable-recents-url-sharing-using-androidxnavigation-1189) covers how this library came to be, and some of the implementation details.
+
 ## Getting started
 
 1. Add the `com.stylianosgakis.navigation.recents.url.sharing:navigation-recents-url-sharing:{VERSION_HERE}` 
